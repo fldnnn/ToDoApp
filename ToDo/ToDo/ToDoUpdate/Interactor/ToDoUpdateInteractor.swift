@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ToDoUpdateInteractor {
+class ToDoUpdateInteractor: PresenterToInteractorToDoUpdateProtocol {
     
     let db: FMDatabase?
     

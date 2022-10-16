@@ -26,7 +26,7 @@ class ToDoUpdateVC: UIViewController {
     }
 
     @IBAction func updateButton(_ sender: Any) {
-        if let td = tfYapilacakIs, let t = toDo {
+        if let td = tfYapilacakIs.text, let t = toDo {
             toDoUpdatePresenter?.update(yapilacak_id: t.yapilacak_id!, yapilacak_is: td)
         }
     }

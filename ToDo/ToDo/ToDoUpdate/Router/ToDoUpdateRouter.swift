@@ -11,6 +11,5 @@ class ToDoUpdateRouter: PresenterToRouterToDoUpdateProtocol {
     static func createModul(ref: ToDoUpdateVC) {
         ref.toDoUpdatePresenter = ToDoUpdatePresenter()
         ref.toDoUpdatePresenter?.toDoUpdateInteractor = ToDoUpdateInteractor()
-        
     }
 }

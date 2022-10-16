@@ -18,7 +18,7 @@ class ToDoUpdateVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        ToDoUpdateRouter.createModul(ref: self)
         
         if let t = toDo {
             tfYapilacakIs.text = t.yapilacak_is

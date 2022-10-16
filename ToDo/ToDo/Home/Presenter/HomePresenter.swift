@@ -17,11 +17,11 @@ class HomePresenter: ViewToPresenterHomeProtocol {
     }
     
     func searchToDo(searchText: String) {
-        
+        homeInteractor?.searchToDo(searchText: searchText)
     }
     
     func deleteToDo(yapilacak_id: Int) {
-        
+        homeInteractor?.deleteToDo(yapilacak_id: yapilacak_id)
     }
 }
 
